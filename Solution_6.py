@@ -1,0 +1,1 @@
+# Write a Python program that checks whether a given string is a valid email address by checking for the presence of ‘@’. 

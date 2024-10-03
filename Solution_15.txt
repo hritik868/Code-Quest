@@ -1,0 +1,9 @@
+def calculate_average(numbers):
+    total = None
+    for n in numbers:
+        total += n
+    return total / len(numbers)
+
+
+result = calculate_average([5, 10, 15])
+print("Average:", result)
