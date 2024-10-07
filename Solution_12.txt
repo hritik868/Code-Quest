@@ -1,10 +1,7 @@
-def get_largest(numbers):
-    max_value = None
-    for n in numbers:
-        if n > max_value:
-            max_value = n
-    return max_value
+def add_elements(arr):
+    total = sum(arr)
+    total += total
+    return total
 
 
-result = get_largest([1, 2, 3, 4, 5])
-print("Largest number:", result)
+print(add_elements([1, 2, 3]))

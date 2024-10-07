@@ -1,7 +1,8 @@
-L = eval(input("Enter the elements : "))
-n = len(L)
-for j in range(n):
-    for i in range(n-j):
-        if L[i]>L[i+1]:
-            L[i],L[i+1] = L[i+1],L[i]
-print("Sorted List",L)
+def generate_multiples(n):
+    multiples = []
+    for i in range(1, 6):
+        multiples.append(n * i)
+    print(multiples)
+
+
+generate_multiples('3')

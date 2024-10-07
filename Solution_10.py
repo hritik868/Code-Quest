@@ -1,6 +1,6 @@
-# Write a code to draw the pattern given below
-# 		 *****						
-# 		  ****					     
-# 		   ***		
-# 		    **			
-# 		     *
+# Write a code to draw the pattern given below using loops
+# 		       	*
+# 		 	   **
+#             ***
+# 		     ****
+# 		    *****

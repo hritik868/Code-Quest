@@ -1,1 +1,1 @@
-# Write a function that accepts a list of integers and returns a tuple containing the maximum and minimum values in the list.
+# Implement a function that checks if each character in a given string is unique, using only lists and membership operators.

@@ -1,1 +1,1 @@
-# Implement a function that takes a list and removes all elements that are below a given threshold.
+# Implement a function that takes two integers and returns True if they have opposite signs, using bitwise operations.

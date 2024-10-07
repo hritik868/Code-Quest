@@ -1,1 +1,1 @@
-# Implement a function that takes a list and removes all elements that are below a given threshold.
+# Write a function to find the most frequent word in a sentence, ignoring case, and return it in uppercase.

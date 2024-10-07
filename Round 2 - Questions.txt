@@ -1,0 +1,111 @@
+﻿Coding Questions
+
+
+1.Write a Python program to take a list of numbers as input and print whether each number is even or odd using a ‘for’ loop. 
+
+
+2.Write a function that accepts a list of strings and returns a dictionary where keys are the strings and values are their lengths, only if the string contains only alphabetic characters.
+
+
+3.Implement a function that checks if each character in a given string is unique, using only lists and membership operators.
+
+
+4. Create a function that takes a string and removes any characters not in "aeiou".
+
+
+5.Implement a function that takes two integers and returns ‘True’ if they have opposite signs, using bitwise operations.
+
+
+6.Create a function to return a new list containing only the odd numbers from an existing list, halved if they are greater than a certain threshold
+
+
+7.Write a function to find the most frequent word in a sentence, ignoring case, and return it in uppercase.
+
+
+8. Implement a function that takes two integers and returns True if they have opposite signs, using bitwise operations.
+
+
+9.Write a code to draw the pattern given below using loops
+                                1
+                              121
+                            12321
+                          1234321
+                        123454321
+
+
+10.Write a code to draw the pattern given below using loops
+                               *
+                              **
+                             ***
+                      	    ****
+                           *****
+
+
+
+
+
+                                Debugging Questions
+
+
+1.
+
+def filter_even_numbers(numbers):
+    even_numbers = []
+    for num in numbers:
+        if num % 2 = 0:
+        even_numbers.append(num)
+    return even_numbers
+print(filter_even_numbers([1, 2, 3, 4, 5, 6]))
+
+
+
+
+
+
+2.
+
+def add_elements(arr):
+    total = sum(arr)
+    total += total
+    return total
+
+
+print(add_elements([1, 2, 3]))
+
+
+3.
+
+def generate_multiples(n):
+    multiples = []
+    for i in range(1, 6):
+        multiples.append(n * i)
+    print(multiples)
+
+
+generate_multiples('3')
+
+
+4.
+
+
+def generate_fibonacci(n):
+    fib_sequence = [0, 1]
+    for i in range(2, n):
+        fib_sequence.append(fib_sequence[i-1] + fib_sequence[i-2])
+    print(fib_sequence)
+
+
+generate_fibonacci(0)
+
+
+5.
+
+def filter_positive(nums):
+    positives = []
+    for num in nums:
+        if num >= 0:
+            positives += num
+    print(positives)
+
+
+filter_positive([-3, 2, 5, -1, 7])

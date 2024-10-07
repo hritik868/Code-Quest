@@ -1,1 +1,1 @@
-# Create a Python function that returns the common elements between two lists as a tuple.
+# Implement a function that takes two integers and returns ‘True’ if they have opposite signs, using bitwise operations.

@@ -1,1 +1,1 @@
-# Write a function to check if a given string is a palindrome
+# Create a function that takes a string and removes any characters not in "aeiou".

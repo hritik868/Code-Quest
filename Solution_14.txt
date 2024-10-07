@@ -1,17 +1,8 @@
-num = 1634
-
-order = len(str(num))
-
-sum = 0
-
-temp = num
-while temp > 0:
-   digit = temp % 10
-   sum += digit ** order
-   temp /= 10
+def generate_fibonacci(n):
+    fib_sequence = [0, 1]
+    for i in range(2, n):
+        fib_sequence.append(fib_sequence[i-1] + fib_sequence[i-2])
+    print(fib_sequence)
 
 
-if num == sum:
-   print(num,"is an Armstrong number")
-else:
-   print(num,"is not an Armstrong number")
+generate_fibonacci(0)

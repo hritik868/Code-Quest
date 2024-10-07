@@ -1,9 +1,9 @@
-def calculate_average(numbers):
-    total = None
-    for n in numbers:
-        total += n
-    return total / len(numbers)
+def filter_positive(nums):
+    positives = []
+    for num in nums:
+        if num >= 0:
+            positives += num
+    print(positives)
 
 
-result = calculate_average([5, 10, 15])
-print("Average:", result)
+filter_positive([-3, 2, 5, -1, 7])
