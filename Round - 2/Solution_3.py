@@ -1,1 +1,0 @@
-# Implement a function that checks if each character in a given string is unique, using only lists and membership operators.

@@ -1,1 +1,0 @@
-# Write a function to find the most frequent word in a sentence, ignoring case, and return it in uppercase.

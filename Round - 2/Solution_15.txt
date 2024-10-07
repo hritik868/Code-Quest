@@ -1,9 +1,0 @@
-def filter_positive(nums):
-    positives = []
-    for num in nums:
-        if num >= 0:
-            positives += num
-    print(positives)
-
-
-filter_positive([-3, 2, 5, -1, 7])

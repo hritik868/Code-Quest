@@ -1,8 +1,0 @@
-def generate_multiples(n):
-    multiples = []
-    for i in range(1, 6):
-        multiples.append(n * i)
-    print(multiples)
-
-
-generate_multiples('3')

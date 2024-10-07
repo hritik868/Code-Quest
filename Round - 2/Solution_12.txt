@@ -1,7 +1,0 @@
-def add_elements(arr):
-    total = sum(arr)
-    total += total
-    return total
-
-
-print(add_elements([1, 2, 3]))

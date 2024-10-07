@@ -1,1 +1,0 @@
-# Create a function to return a new list containing only the odd numbers from an existing list, halved if they are greater than a certain threshold
