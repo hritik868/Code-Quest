@@ -1,0 +1,1 @@
+# Implement a function that takes two integers and returns True if they have opposite signs, using bitwise operations.
